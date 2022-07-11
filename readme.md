@@ -5,10 +5,10 @@ This is a simple apigateway for django to transmit restful api.
 
 
 ## Requirements
-* Python(2.7)
-* Django(1.8)
+* Python(3.6)
+* Django(2.1)
 * requests
-* djangorestframework
+* djangorestframework (3.9.4)
 
 ## Installation
 Install using pip         
