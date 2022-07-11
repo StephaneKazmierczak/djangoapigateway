@@ -8,7 +8,7 @@ from rest_framework import HTTP_HEADER_ENCODING
 
 # Create your models here.
 class Consumer(models.Model):
-    user = models.OneToOneField(User)
+    user = models.OneToOneField(User, on_delete=models.DO_NOTHING)
     apikey = models.CharField(max_length=32)
 
     def __unicode__(self):

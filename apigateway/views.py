@@ -9,6 +9,7 @@ from .models import Api
 
 class gateway(APIView):
     authentication_classes = ()
+    permission_classes = ()
 
     def operation(self, request):
         path = request.path_info.split('/')
